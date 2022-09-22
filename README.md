@@ -1,2 +1,3 @@
 # PILARES-Arduino-Sept22
- Este repositotio contine los recursos del taller de Arduino.
+ Este repositorio contine los recursos del taller de Arduino.
+ https://drive.google.com/drive/folders/1IJ7ROyyjvaH7dIfpCJi50kQDuDLnOJmX?usp=sharing
