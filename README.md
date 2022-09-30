@@ -1,4 +1,4 @@
 # PILARES-Arduino-Sept22
- Este repositorio contiene los recursos del taller de Arduino.
- https://drive.google.com/drive/folders/1IJ7ROyyjvaH7dIfpCJi50kQDuDLnOJmX?usp=sharing
- https://youtube.com/playlist?list=PLJdqQjsB2gwJfnsmABZ2FMFxm3r8WrSfQ
+ **Recursos del taller:**
+ [Presenataciones, retos y recursos](https://drive.google.com/drive/folders/1IJ7ROyyjvaH7dIfpCJi50kQDuDLnOJmX?usp=sharing)
+ [Video tutoriales y grabaciones](https://youtube.com/playlist?list=PLJdqQjsB2gwJfnsmABZ2FMFxm3r8WrSfQ)
