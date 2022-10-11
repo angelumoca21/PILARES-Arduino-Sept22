@@ -12,3 +12,5 @@
 [Circuito sesión 3](https://www.tinkercad.com/things/1kxHCxgxYGB)
 [Circuito sesión 4](https://www.tinkercad.com/things/70G8QV3UyuJ)
 [Circuito sesión 5](https://www.tinkercad.com/things/5jHwHLh841l)
+[Circuito sesión 6](https://www.tinkercad.com/things/2hU8rRqEGGi)
+
