@@ -21,4 +21,9 @@
 [Circuito sesión 11](https://www.tinkercad.com/things/cuVFpBJmq6c)
 [Circuito sesión 12](https://www.tinkercad.com/things/eCmonwwXx7f)
 
+# Links para configurar placas NODEMCU (ESP8266) y ESP32:
+[NODEMCU](http://arduino.esp8266.com/stable/package_esp8266com_index.json)
+
+[ESP32](https://dl.espressif.com/dl/package_esp32_index.json)
+
 
