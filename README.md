@@ -19,5 +19,6 @@
 [Circuito sesión 9](https://www.tinkercad.com/things/cnkKKSX3cHk)
 [Circuito sesión 10](https://www.tinkercad.com/things/d8VlKoGc8kq)
 [Circuito sesión 11](https://www.tinkercad.com/things/cuVFpBJmq6c)
+[Circuito sesión 12](https://www.tinkercad.com/things/eCmonwwXx7f)
 
 
