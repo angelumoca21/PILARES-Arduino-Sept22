@@ -5,8 +5,8 @@ int lecturaFotoRes = 0;
 
 void setup()
 {
- pinMode(activadorRele,OUTPUT);
- Serial.begin(9600);
+  pinMode(activadorRele,OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop()
