@@ -14,8 +14,8 @@ void loop()
   while(IrReceiver.decode() != 0)
   {
     Serial.println(IrReceiver.decodedIRData.command);
-    if (IrReceiver.decodedIRData.command == 210)
-      digitalWrite(LED,!digitalRead(LED));
+    /*if (IrReceiver.decodedIRData.command == 210)
+      digitalWrite(LED,!digitalRead(LED));*/
     IrReceiver.resume();
   }
 }
