@@ -1,8 +1,8 @@
 #include <IRremote.h>
 //PINES DE CONTROL DEL MOTOR
 #define input1 4
-#define input2 5
-#define pinVel 3
+#define input2 7
+#define pinVel 5
 //PINES DE CONTROL DEL RECEPTOR IR
 #define IRpin 9
 #define bizq 210   //girar en sentido izq
@@ -11,12 +11,11 @@
 #define bvolM 121  //+vel
 #define bvolm 185  //-vel
 
-int vel = 255;
+int vel = 130;
 
 void setup() {
   Serial.begin(9600);
   IrReceiver.begin(IRpin);
-  pinMode(pinVel, OUTPUT);
   pinMode(input1, OUTPUT);
   pinMode(input2, OUTPUT);
 }
@@ -48,13 +47,17 @@ void loop()
       Serial.println(vel);
     } 
     else if (IrReceiver.decodedIRData.command == bvolM) {
-      vel = vel + 10;
+      vel = vel + 20;
+      if (vel > 255)
+        vel = 255;
       Serial.print("Velocidad actual: ");
       Serial.println(vel);
     } 
     else if (IrReceiver.decodedIRData.command == bvolm) 
     {
-      vel = vel - 5;
+      vel = vel - 20;
+      if (vel < 0)
+        vel = 0;
       Serial.print("Velocidad actual: ");
       Serial.println(vel);
     }
