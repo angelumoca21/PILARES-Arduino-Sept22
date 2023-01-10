@@ -31,6 +31,7 @@
 [Circuito sesión 22](https://www.tinkercad.com/things/i89OKfUyTrf)
 [Circuito sesión 23 part1](https://www.tinkercad.com/things/hRBVxleaHkf)
 [Circuito sesión 23 part2](https://www.tinkercad.com/things/gQvZwxVabZP)
+[Circuito sesión 24](https://www.tinkercad.com/things/7623WwTxI42)
 [Dudas1](https://www.tinkercad.com/things/0r7DM1UCIbN)
 
 # Links para configurar placas NODEMCU (ESP8266) y ESP32:
