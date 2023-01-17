@@ -1,6 +1,6 @@
 #include<Adafruit_NeoPixel.h>
-#define NumeroPixels 9
-#define Pin 2
+#define NumeroPixels 16
+#define Pin 13
 Adafruit_NeoPixel tira = Adafruit_NeoPixel(NumeroPixels,Pin,NEO_GRB + NEO_KHZ800);
 
 void setup()
@@ -10,16 +10,18 @@ void setup()
 
 void loop()
 {
-  tira.setBrightness(10);
-  tira.setPixelColor(0,255,0,0);//rgb
-  tira.setPixelColor(1,0,0,255);//rgb
-  tira.setPixelColor(2,0,255,0);//rgb
-  tira.setPixelColor(3,random(0,255),random(0,255),random(0,255));//rgb
-  tira.setPixelColor(4,random(0,255),random(0,255),random(0,255));//rgb
-  tira.setPixelColor(5,random(0,255),random(0,255),random(0,255));//rgb
-  tira.setPixelColor(6,random(0,255),random(0,255),random(0,255));//rgb
-  tira.setPixelColor(7,random(0,255),random(0,255),random(0,255));//rgb
-  tira.setPixelColor(8,random(0,255),random(0,255),random(0,255));//rgb
-  tira.show();
-  delay(500);
+  tira.setBrightness(255);
+  for(int i = 0;i<NumeroPixels;i++)
+  {
+    tira.setPixelColor(i,0,0,255);//rgb
+    tira.show();
+    delay(500);
+  }
+    for(int i = 0;i<NumeroPixels;i++)
+  {
+    tira.setPixelColor(i,random(0,255),random(0,255),random(0,255));//rgb
+    tira.show();
+    delay(500);
+  }
+  delay(5000);
 }
